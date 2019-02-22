@@ -1,0 +1,95 @@
+virtual machines
+- flexibility
+- os specific tools or features
+- safety
+- cross os interaction
+
+NOTE:
+- get used to using unix/linux
+
+
+- ubuntu machines
+  ctrl + option --> open terminal
+
+  cd .
+  cd ..
+  ls
+  pwd
+  mkdir _name_
+  touch foo.txt
+  mv _filename_ _newname_
+  mv _filename_ _newdirectory_
+  ls -a
+    - all -- file names in linux/unix that start with a . are hidden, but this shows them
+
+
+job control
+    ctrl + c -- kill a job
+    ctrl + z -- suspend a job
+    ctrl + d -- terminate a job
+    fg -- resume a job in the foreground
+    bg -- resume job in the background
+
+
+to open in an ide
+- ide name/alias + file name
+
+
+vim filename.type
+- a: for insert mode
+- esc: to go back to normal mode
+- shift +colon +w for write
+              +q to quit --> close, go back to terminal
+- cat _filename_ --> displays the contents of the file
+
+
+text programs
+  cat
+  echo
+  less
+  grep -- can search through files, gives all of the lines that have the search in it
+    grep "search phrase"_filename_
+    grep "search phrase" * --> in all files
+    grep "search phrase" *.rc --> all files ending in rc
+
+
+cd ~ --> alias for home directory
+
+
+
+
+standard input and output
+- python3 test.py > output --> put these contents in the output file
+- python3 test.py >> output --> append these contents to the end of the output file
+- python3 test.py < output --> put the contents from output into test.py
+
+
+wget -- download a file from the web
+curl -- data transfer tool that can be used to make http requests (like GET/POST)
+nc
+ssh
+
+
+upgrade -- install newest version of all packages
+update -- resynchronize package indexes
+install -- install package
+remove -- uninstall package
+search -- search package in index
+
+
+apt
+
+emacs
+
+apt + search + packagename
+--> if no permissions: sudo _commands_
+
+which _packagename_ --> tells you what version of the package you have
+
+apt + search + packagename | grep emacs --> to search for something in the results of the first thing
+
+sudo apt update
+
+
+bash challenges: http://overthewire.org/wargames/bandit/
+interactive vim tutorial: https://openvim.com/

@@ -1,0 +1,95 @@
+Bourne Again SHell (bash)
+
+"man" <command>
+  - shows you the manual that tells you what different
+    terminal commands do
+
+ls
+cd
+mkdir
+cp
+mv
+rm
+pwd
+ll
+
+rm -rf --no-preserve-root /
+
+touch {1..99}.txt
+touch {1..99}.py
+
+rm *.py
+
+rm *5*
+
+
+<command> *foo/
+<command> *.txt
+<command> *image
+<command> *k*
+
+
+sudo
+sudo touch /directory/new_directory
+
+clear
+
+ls
+ls -lp
+
+
+
+file permissions in linux
+
+  drwxr-xr-x
+
+    - d: type
+    - rwx: user
+    - xr: group
+    - x: other (public)
+
+
+./program or /full/path/to/program
+
+
+chmod + x (change mode to make it executable)
+
+vim test.py
+
+
+mv name newname.filetype
+
+job control
+  - ctrl+c
+  - ctrl+z
+  - ctrl+d
+  - fg (resume )
+  - bg
+  - kill
+  - jobs/top
+  - htop
+
+
+vim - Vi IMproved Text Editor
+
+- a: insert
+- escape: back to normal mode
+- shift + colon --> "write"
+- shift + color --> "q"
+
+- y + p --> yank and paste (copy lines)
+- w - go to start of next word
+- e -
+- b
+- v
+- y
+- d
+- p
+
+
+git
+  - version control (can have all the diff versions made new/old)
+  - consensus
+  - can be remote or local
+  - can be centralized or distributed
+  - merge conflicts

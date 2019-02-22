@@ -1,0 +1,26 @@
+- web is the #1 platform for new products
+
+- client server model
+  - clients download packets from the server
+  - packets can contain files, images, audio, data, etc.
+  - client renders all of this to the user
+
+HTML (Hypertext markup language)
+  - not a coding language
+  - defines things that go on a page
+
+Anatomy of an HTML page
+  - metadata
+    - information your browser will process before rendering the page
+    - nothing you put here will not be visible
+  - head
+    - javascript you put here will not render because the body hasnt loaded yet
+  - body
+
+
+HTML Elements (tags)
+  - head
+    - title
+  - body
+    - p
+    - headers
