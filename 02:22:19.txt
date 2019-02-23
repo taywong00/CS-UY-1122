@@ -24,3 +24,28 @@ HTML Elements (tags)
   - body
     - p
     - headers
+
+
+Attributes
+  - style
+  - height/width
+  - id and class
+  - many more!
+
+
+HTML Forms
+- form
+- action
+- method
+
+- input types
+  - text
+  - email
+  - number
+  - date
+  - file
+  - password
+  - radio
+  - select
+  - button
+  - submit
