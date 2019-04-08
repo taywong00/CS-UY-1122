@@ -1,0 +1,13 @@
+**** dom.html ****
+
+Document Object Model
+
+- put the script at the bottom so the compiler knows
+  about all the items that you want to manipulate
+
+- console.log(elem)
+
+- onclick
+  - define an action when the item is clicked
+
+- innerHTML

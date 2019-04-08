@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DOM Test</title>
+
+  <style>
+
+    #changeme {
+      font-size: 30px;
+      background-color: blue;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="changeme" onclick="change(this)">
+    Click me to change this text.
+  </div>
+
+  <div id="clock">
+  </div>
+
+  <div id="container"></div>
+  <button onlick="addParagraph()">Click me!</button>
+
+  <script>
+    function change(elem) {
+      console.log(elem);
+      elem.style.backgroundColor = "green";
+      elem.innerHTML = "Yay I've done it!"
+    }
+
+    function tick() {
+      var clock = document.getElementById("clock");
+      var now = new Date();
+      var hours = now.getHours();
+      var minutes = now.getMinutes();
+      var seconds = now.getSeconds();
+
+      clock.innerHTML = hours + ":" + minutes + ":" + seconds;
+      console.log(clock);
+    }
+
+    var container = document.getElementById("container");
+
+    function addParagraph() {
+      var p = document.createElement("p");
+      var content = document.createTextNode("I am a paragraph");
+      p.appendChild(content);
+      container.appendChild(p);
+      console.log(content);
+    }
+
+    setInterval(tick, 1000);
+
+  </script>
+
+</body>
+
+</html>

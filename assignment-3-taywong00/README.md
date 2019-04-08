@@ -2,8 +2,8 @@
 
 Edit this file to complete the following information below:
 
-* Name: 
-* Net ID:
+* Name: Taylor Wong
+* Net ID: tw1835
 
 ## Description
 

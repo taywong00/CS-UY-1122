@@ -1,0 +1,21 @@
+********* app.py **********
+- get from lecture notes online
+
+flask.pocoo.org/docs/1.0
+
+client server model
+  - client downloads packets from the server
+
+
+Back-end
+  - the brains
+  - behind the scenes
+  - necessary for any application that has data processing
+
+
+Python
+
+Flask
+  - simple python framework for back-end web development
+
+127.0.0.1 same as localhost
